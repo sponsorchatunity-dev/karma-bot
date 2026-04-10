@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-  if (!m.quoted) return conn.reply(m.chat, `『 🗑️ 』 *\`Rispondi al messaggio che vuoi eliminare.\`*`, m)
+  if (!m.quoted) return conn.reply(m.chat, `Rispondi al messaggio che vuoi eliminare.\*`, m)
   try {
     const re = m.message.extendedTextMessage?.contextInfo
     const targetMsg = {
