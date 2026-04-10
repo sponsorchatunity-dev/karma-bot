@@ -670,7 +670,7 @@ global.dfail = (type, m, conn) => {
         title: `${msg}`,
         body: '',
         previewType: 'PHOTO',
-        thumbnail: fs.readFileSync('./media/principale.jpeg'),
+        thumbnail: fs.readFileSync('./media/karma.jpeg'),
         mediaType: 1,
         renderLargerThumbnail: true
       }
